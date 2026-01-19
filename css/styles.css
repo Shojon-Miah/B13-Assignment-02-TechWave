@@ -74,3 +74,24 @@ body {
 .arrow-icon {
     font-size: 14px;
 }
+
+/* Hamburger, hidden in laptop/ desktop */
+
+.hamburger-label {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+
+}
+.bar {
+    width: 22px;
+    height: 2px;
+    background-color: #FFFFFF;
+
+}
+
+/* Hide checkbox */
+#menu-toggle {
+    display: none;
+}
