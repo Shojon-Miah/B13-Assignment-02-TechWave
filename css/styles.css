@@ -95,3 +95,57 @@ body {
 #menu-toggle {
     display: none;
 }
+
+
+
+/* Responsive Breakpoints */
+
+/* Small Device (≤ 576px) */
+
+@media (max-width: 576px){
+
+    /* .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    } */
+
+    .navbar {
+    padding: 18px 24px;
+        }
+    .nav-menu {
+        position: static;
+        transform: none;
+        flex-direction: column;
+
+        width: 100%;
+        background-color: #1b0b3a;
+        margin-top: 20px;
+        padding: 20px 0;
+
+        text-align: center;
+        display: none;
+    }
+    .nav-btn {
+        display: none;
+    }
+
+    .hamburger-label {
+        display: flex;
+
+    }
+/* Hide checkbox */
+    #menu-toggle:checked~.nav-menu{
+        display: flex;
+    }
+    
+} 
+
+
+
+/* Medium Device Responsive (576px – 992px) */
+
+@media {
+
+
+}
